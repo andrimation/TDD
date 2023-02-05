@@ -20,7 +20,7 @@ class NewVisitorTest(unittest.TestCase):
         self.browser.get('http://127.0.0.1:8000/')
 
         # Zwróciła uwagę, że tytuł strony i nagłówek zawierają słowo Listy.
-        self.assertIn("Listy",self.browser.title)
+        self.assertIn("Lista",self.browser.title)
         self.fail("Zakończenie testu!")
 
     # Od razu zostaje zachęcona aby wpisać rzeczy do zrobienia
